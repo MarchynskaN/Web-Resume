@@ -4,16 +4,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="/assets/stylesheets/styles.css" rel="stylesheet">
+    <link href="assets/stylesheets/styles.css" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="assets/javascript/main.js"></script>
+    
     <!-- Include jQuery Roadmap CSS -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" type="text/css" />
     <link href="assets/javascript/jquery.roadmap.min.css" rel="stylesheet" type="text/css" />
-    <script src="/assets/javascript/main.js"></script>
     
     <title>Nadiia Marchynska | Web-Resume</title>
 </head>
@@ -22,15 +29,20 @@
         <header id="header" class="head">
             <div class="container">
                 <div class="row justify-space-between">
-                    <div class="logo col-3">
+                    <div class="logo">
                         <a href="#">
                             <span class="logo_img">
-                                <img src="/assets/images/logo_transparent.png" alt="">
+                                <img src="assets/images/logo_transparent.png" alt="">
                             </span>
                         </a>
                     </div>
-                    <nav id="main-navigation" class="col-6">
-                        <ul>
+                    <nav id="main-navigation">
+                        <div class="menu-toggle" onclick="togglefun()">
+                            <div class="bar"></div>
+                            <div class="bar"></div>
+                            <div class="bar"></div>
+                        </div>
+                        <ul class="menu-list">
                             <li><a href="#" class="imglink">HOME</a></li>
                             <li><a href="#about" class="imglink">ABOUT</a></li>
                             <li><a href="#skills" class="imglink">SKILLS</a></li>
@@ -54,7 +66,7 @@
                 </div>
                 <div class="row justify-content-evenly">
                     <div class="col-5">
-                        <img class="abt_img" src="/assets/images/vert-cropped.jpg">
+                        <img class="abt_img" src="assets/images/vert-cropped.jpg">
                     </div>
                     <div class="col-4 summary">
                         <p>A passionate web developer and software engineer with a strong foundation in programming languages such as C#, Java, PHP and JavaScript, committed to staying up-to-date with the latest web development trends and technologies. Valuable team member with excellent communication, writing and collaborative skills, eager to contribute creativity to an innovative company that promotes growth and development.</p>
@@ -151,24 +163,24 @@
             </div>
         </section>
         <section id="projects" class="mb-5">
-            <div class="container">
+            <div class="container-fluid">
                 <div class="headings text-center mb-5">
                     <h5>PROJECTS</h5>
                 </div>
                 <div class="row justify-content-evenly">
                     <div class="col-lg-3 mb-5 project_img">
                         <a class="images" href="#">
-                            <img class="w-100" src="/assets/images/web_resume.gif" alt="">
+                            <img class="w-100" src="assets/images/web_resume.gif" alt="">
                         </a>
                     </div>
                     <div class="col-lg-3 mb-5 project_img">
                         <a class="images" href="https://marchynskan.github.io/QuizLord/">
-                            <img class="w-100" src="/assets/images/Quiz_game1.gif" alt="">
+                            <img class="w-100" src="assets/images/Quiz_game1.gif" alt="">
                         </a>
                     </div>
                     <div class="col-lg-3 mb-5 project_img">
                         <a class="images" href="https://github.com/MarchynskaN/GameOfLife">
-                            <img class="w-100" src="/assets/images/GameOfLife.gif" alt="">
+                            <img class="w-100" src="assets/images/GameOfLife.gif" alt="">
                         </a>
                     </div>
                     
