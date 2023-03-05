@@ -18,3 +18,13 @@ window.onscroll = function() {
         });
     }
 };
+
+var menu = document.getElementsByClassName("menu-toggle");
+var menulist = document.getElementsByClassName("menu-list");
+var headbar = document.getElementsByClassName("head");
+
+function togglefun(){
+    menu[0].classList.toggle("closeMenu");
+    menulist[0].classList.toggle("showMenu");
+    headbar[0].classList.toggle("changeColor")
+}
