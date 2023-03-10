@@ -1,4 +1,4 @@
-var scrollTrigger = 500;
+var scrollTrigger = 200;
 var array = document.getElementsByClassName("imglink");
 window.onscroll = function() {
     if (window.scrollY >= scrollTrigger || window.pageYOffset >= scrollTrigger) {
