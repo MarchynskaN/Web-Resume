@@ -381,7 +381,53 @@ h6 {
 #contact a:hover{
     text-decoration: underline;
 }
-
+@media(max-width:1050px){
+    #contact{
+        padding: 60px 0px 20px;
+        height: 60vw;
+    }
+    #contact .col-lg-4 {
+        width: 100% !important;
+    }
+}
+@media(max-width:870px){
+    #contact{
+        height: 85vw;
+    }
+    #contact h3{
+        font-size: 1.8em;
+    }
+}
+@media(max-width:650px){
+    #contact{
+        height: 95vw;
+    }
+}
+@media(max-width:576px){
+    #contact{
+        height: 110vw;
+    }
+}
+@media(max-width:500px){
+    #contact{
+        height: 125vw;
+    }
+}
+@media(max-width:440px){
+    #contact{
+        height: 135vw;
+    }
+}
+@media(max-width:400px){
+    #contact{
+        height: 155vw;
+    }
+}
+@media(max-width:360px){
+    #contact{
+        height: 175vw;
+    }
+}
 /* CSS FOR FOOTER */
 #footer{
     text-align: center;
