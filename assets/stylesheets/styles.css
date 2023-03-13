@@ -227,8 +227,9 @@ h6 {
         font-size: 1.8em;
     }
     .abt_img{
-
+        width: 80%;
         height: 400px;
+        margin-left: 5%;
 
     }
     .summary p{
