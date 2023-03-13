@@ -139,7 +139,11 @@ h6 {
         top: 60px !important;
     }
 }
-
+@media(max-width:572px){
+    .head{
+        padding: 0px;
+    }
+}
 
 #main-navigation ul {
     display: flex;
@@ -223,9 +227,9 @@ h6 {
         font-size: 1.8em;
     }
     .abt_img{
-        width: 40%;
+
         height: 400px;
-        margin-left: 40%;
+
     }
     .summary p{
         font-size: 0.9em;
