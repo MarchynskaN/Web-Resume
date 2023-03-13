@@ -227,7 +227,7 @@ h6 {
         font-size: 1.8em;
     }
     .abt_img{
-        width: 90%;
+        width: 100%;
         height: 400px;
         margin-left: 0%;
 
@@ -236,7 +236,13 @@ h6 {
         font-size: 0.9em;
     }
 }
-
+@media(max-width:572px){
+    .abt_img{
+        width: 80%;
+        height: 600px;
+        margin-left: 10%;
+    }
+}
 /* CSS FOR SKILLS */
 #skills {
     text-align: center;
