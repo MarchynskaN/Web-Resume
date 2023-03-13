@@ -139,11 +139,7 @@ h6 {
         top: 60px !important;
     }
 }
-@media(max-width:572px){
-    .head{
-        padding: 0px;
-    }
-}
+
 
 #main-navigation ul {
     display: flex;
@@ -241,6 +237,9 @@ h6 {
         width: 80%;
         height: 430px;
         margin-left: 10%;
+    }
+    #banner{
+        height: 45vw;
     }
 }
 /* CSS FOR SKILLS */
