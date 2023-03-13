@@ -353,7 +353,7 @@ h6 {
 #contact{
     text-align: center;
     background: url("../images/laptop.jpg") no-repeat 0px 0px;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
