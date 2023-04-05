@@ -233,8 +233,8 @@ h6 {
         font-size: 1.8em;
     }
     .abt_img{
-        width: 100%;
         height: 400px;
+        width: 90%;
         margin-left: 0%;
 
     }
@@ -244,8 +244,8 @@ h6 {
 }
 @media(max-width:572px){
     .abt_img{
-        width: 80%;
         height: 430px;
+        width: 90%;
         margin-left: 10%;
     }
     #banner{
